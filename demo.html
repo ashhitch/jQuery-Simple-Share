@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>jQuery Simple Share</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+    		<h1>jQuery Simple Share</h1>
+		  <div class="social-icons">
+		    <ul class="list-inline">
+		      <li class="share_action share_action-facebook">
+		        <a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.ashleyhitchcock.co.uk%2F&t=Ashley+Hitchcock+Portfolio" class="sprite-icon sprite-social-fb">
+		          <i>Facebook</i>
+		        </a> 
+		      </li>
+		      <li class="share_action share_action-twitter">
+		        <a class="sprite-icon sprite-social-tw" href="https://twitter.com/intent/tweet?url=http%3A%2F%2Fwww.ashleyhitchcock.co.uk%2F&text=Ashley+Hitchcock+Portfolio&via=ash_hitchcock">
+		          <i>Twitter</i>
+		        </a> 
+		      </li>
+		      <li class="share_action share_action-pintrest">
+		        <a class="sprite-icon sprite-social-pt" href="http://www.pintrest.com/pin/create/button/?url=http%3A%2F%2Fwww.ashleyhitchcock.co.uk%2F">
+		          <i>Pintrest</i>
+		        </a> 
+		      </li>
+		      <li class="share_action share_action-googleplus">
+		        <a class="sprite-icon sprite-social-gp" href="https://plus.google.com/share?url=http%3A%2F%2Fwww.ashleyhitchcock.co.uk%2F">
+		          <i>Google+</i>
+		        </a> 
+		      </li>
+		    </ul>
+		  </div>
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="dist/jquery-simple-share.min.js"></script>
+        <script>
+		$(document).ready(function() {
+		  // Handler for .ready() called.
+		  $('.social-icons ul').simpleShare();
+		});
+        </script>
+
+    </body>
+</html>
+
+
